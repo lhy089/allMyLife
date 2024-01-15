@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#mainForm {
+   position: absolute;
+   width:400px;
+   height:auto;
+   background-color: #fff;  
+   margin:auto;
+   border-radius: 5px;
+   padding:20px;
+   top:30%;
+   left:50%;
+   margin-left:-200px;
+   opacity : 0.9;
+}
+
+div.mainLogo {
+	text-align: center;
+}
