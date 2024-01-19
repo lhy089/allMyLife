@@ -18,3 +18,8 @@ div#mainForm {
 div.mainLogo {
 	text-align: center;
 }
+
+div#loginForm {
+	text-align: center;
+	margin-top: 70px;
+}
