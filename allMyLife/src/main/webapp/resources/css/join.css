@@ -2,42 +2,42 @@
 /* CSS Document */
 
 div#mainForm {
-   position: absolute;
-   width:350px;
-   height:auto;
-   background-color: #fff;  
-   margin:auto;
-   border-radius: 5px;
-   padding:20px;
-   top:10%;
-   left:50%;
-   margin-left:-200px;
-   opacity : 0.9;
-   padding-bottom: 50px;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    background-color: #0a5ed314;
+    border: 3px solid #085cd1;
+    border-radius: 5px;
+    padding: 20px;
+    top: 10%;
+    left: 50%;
+    margin-left: -250px;
+    opacity: 0.9;
+    padding-bottom: 50px;
 }
 
 div.mainLogo {
 	text-align: center;
 }
 
-div#loginForm {
+div#joinForm {
 	text-align: center;
 	margin-top: 70px;
 }
 
-div.login-item {
+div.join-item {
 	position: relative;
     text-align: center;
 }
 
-p.login-label {
+p.join-label {
 	position: absolute;
     left: 30px;
     font-weight: bold;
     color: #bbb;
 }
 
-input.login-input {
+input.join-input {
 	width: 85%;
     height: 40px;
     border: 1px solid lightgray;
@@ -46,30 +46,16 @@ input.login-input {
     margin-bottom: 40px;
 }
 
-div.login-sub-item {
-    position: relative;
-	text-align: left;
-	
+.gender p {
+	top: -18px;
+	color: #085cd1;
 }
 
-.pull-left {
-    position: absolute;
-    top: 60px;
+.gender div {
+	margin-left: -100px;
 }
 
-.pull-right {
-	float: right;
-}
-
-div.login-sub-item a {
-	font-size: 13px;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 20px;
-    color: #085cd1;
-}
-
-.login {
+.join {
     width: 120px;
     height: 30px;
 	font-weight: bold;
@@ -78,6 +64,11 @@ div.login-sub-item a {
     background-color: #9ebfed;
     border-radius: 10px;
     border: 1px solid lightgray;
+    margin: 30px 20px 0 0;
+}
+
+.pull-right {
+	float: right;
 }
 
 .formTop {top:-40px !important; left:10px !important;  padding:0 5px; font-size: 16px; font-weight:bold; color:#085cd1 !important;}
