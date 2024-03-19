@@ -46,7 +46,7 @@
 		 	</div>
 		 	
 		 	<div class="login-sub-item">
-		 		<p><a href="/findId">Forgot Id ?</a></p>
+		 		<p><a href="/Mypage">Forgot Id ?</a></p>
 		 		<p><a href="/findPwd">Forgot Password ?</a></p>
 		 		<p class="pull-left"><a href="/register">Register</a></p>
 		 		<input id="submit" type="submit" class="login pull-right" value="Log In">

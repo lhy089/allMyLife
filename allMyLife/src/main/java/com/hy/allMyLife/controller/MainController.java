@@ -1,5 +1,8 @@
 package com.hy.allMyLife.controller;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
@@ -40,6 +43,16 @@ public class MainController {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		return "main";
+	}
+	
+	/**
+	 * 
+	 */
+	@RequestMapping(value = "/register", method = RequestMethod.GET)
+	public String join(Locale locale, Model model) {
+		logger.info("Welcome home! The client locale is {}.", locale);
+		
+		return "join";
 	}
 	
 	/**
